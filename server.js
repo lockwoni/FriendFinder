@@ -2,6 +2,7 @@
 // Series of npm packages used to give the server useful functionality
 var express = require("express");
 var bodyParser = require("body-parser");
+var path = require("path");
 
 
 /**********************************************/
