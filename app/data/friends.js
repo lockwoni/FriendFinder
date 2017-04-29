@@ -1,5 +1,5 @@
 // DATA
-// Creating an array to hold the survey data that is used to match friends; starting with dummy data, much like Tom from MySpace
+// Creating an array to hold the survey data that is used to match friends; starting with dummy data
 var friendsArray = [
 	{
 		name: "Lexi",
