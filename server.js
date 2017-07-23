@@ -17,6 +17,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
+// Serving static content for the app from the "public" directory in the app directory
+app.use(express.static(process.cwd() + "/app/public"));
 
 /**********************************************/
 // ROUTER

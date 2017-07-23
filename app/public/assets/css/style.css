@@ -1,0 +1,12 @@
+body {
+	background-color: #aea79f !important;
+}
+
+.main-jumbo {
+	background-image: URL("../images/friends.jpg");
+	background-size: cover;
+}
+
+.survey-btn {
+	background-color: #e95420;
+}
